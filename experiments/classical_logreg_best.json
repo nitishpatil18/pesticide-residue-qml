@@ -1,0 +1,11 @@
+{
+  "name": "classical_logreg",
+  "n_trials": 25,
+  "best_value_cv_auc": 0.8014878884484402,
+  "best_params": {
+    "C": 0.0010221922977737942
+  },
+  "search_seconds": 19.662105085000007,
+  "pos_weight": 32.32692307692308,
+  "default_cv_auc": 0.7728329996749962
+}

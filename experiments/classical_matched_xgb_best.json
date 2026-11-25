@@ -1,0 +1,18 @@
+{
+  "name": "classical_matched_xgb",
+  "n_trials": 20,
+  "best_value_cv_auc": 0.8123666666666667,
+  "best_params": {
+    "n_estimators": 100,
+    "max_depth": 2,
+    "learning_rate": 0.01715676288795241,
+    "subsample": 0.8386581919127981,
+    "colsample_bytree": 0.5653605629762763
+  },
+  "arch": {
+    "view": "target",
+    "reduction": "kbest",
+    "n_qubits": 6,
+    "k_select": null
+  }
+}

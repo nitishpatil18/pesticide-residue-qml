@@ -1,0 +1,95 @@
+{
+  "name": "optuna_qsvm",
+  "n_trials": 30,
+  "best_value_cv_auc": 0.8155666666666667,
+  "best_params": {
+    "arch_id": 6,
+    "bandwidth": 0.11698630256156368,
+    "C": 51.402466640508045
+  },
+  "search_seconds": 63.00702572399996,
+  "best_config": {
+    "model": "qsvm",
+    "view": "target",
+    "reduction": "kbest_pca",
+    "n_qubits": 5,
+    "k_select": 10,
+    "feature_map": "Z",
+    "reps": 1,
+    "entanglement": "linear",
+    "bandwidth": 0.11698630256156368,
+    "C": 51.402466640508045
+  },
+  "basic_cv_auc": 0.7170333333333333,
+  "architectures": [
+    {
+      "view": "onehot",
+      "reduction": "pca",
+      "n_qubits": 4,
+      "k_select": null,
+      "feature_map": "ZZ",
+      "reps": 2,
+      "entanglement": "linear"
+    },
+    {
+      "view": "onehot",
+      "reduction": "kbest",
+      "n_qubits": 3,
+      "k_select": null,
+      "feature_map": "Z",
+      "reps": 3,
+      "entanglement": "linear",
+      "bandwidth": 0.4354222159461648
+    },
+    {
+      "view": "target",
+      "reduction": "kbest",
+      "n_qubits": 6,
+      "k_select": null,
+      "feature_map": "Z",
+      "reps": 1,
+      "entanglement": "linear",
+      "bandwidth": 0.32543936377371924
+    },
+    {
+      "view": "target",
+      "reduction": "kbest_pca",
+      "n_qubits": 3,
+      "k_select": 8,
+      "feature_map": "Z",
+      "reps": 1,
+      "entanglement": "linear",
+      "bandwidth": 0.25427418935475554
+    },
+    {
+      "view": "target",
+      "reduction": "kbest",
+      "n_qubits": 6,
+      "k_select": null,
+      "feature_map": "Z",
+      "reps": 2,
+      "entanglement": "linear",
+      "bandwidth": 0.5033732198193115
+    },
+    {
+      "view": "onehot",
+      "reduction": "kbest",
+      "n_qubits": 3,
+      "k_select": null,
+      "feature_map": "Pauli_ZXX",
+      "reps": 1,
+      "entanglement": "full",
+      "bandwidth": 1.3889997404339132
+    },
+    {
+      "view": "target",
+      "reduction": "kbest_pca",
+      "n_qubits": 5,
+      "k_select": 10,
+      "feature_map": "Z",
+      "reps": 1,
+      "entanglement": "linear",
+      "bandwidth": 0.33806309272137225
+    }
+  ]
+}

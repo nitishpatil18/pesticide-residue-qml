@@ -1,0 +1,15 @@
+{
+  "name": "classical_matched_svm",
+  "n_trials": 20,
+  "best_value_cv_auc": 0.8177666666666666,
+  "best_params": {
+    "C": 23.62663669841557,
+    "gamma": 0.0025677923981543825
+  },
+  "arch": {
+    "view": "target",
+    "reduction": "kbest",
+    "n_qubits": 6,
+    "k_select": null
+  }
+}

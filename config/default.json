@@ -1,0 +1,37 @@
+{
+  "seed": 42,
+  "paths": {
+    "raw_zip": "data/raw/2022PDPDatabase.zip",
+    "raw_dir": "data/raw/pdp2022",
+    "processed_dir": "data/processed",
+    "figures_dir": "results/figures",
+    "metrics_dir": "results/metrics",
+    "models_dir": "results/models"
+  },
+  "dataset": {
+    "name": "USDA AMS Pesticide Data Program (PDP) 2022 database",
+    "official_url": "https://www.ams.usda.gov/sites/default/files/media/2022PDPDatabase.zip",
+    "download_mirror_url": "https://raw.githubusercontent.com/bdyapa9/Commodities-and-pesticides-data/HEAD/2022PDPDatabase.zip",
+    "expected_sha256_of_zip": "9e599c741c6122d1ea7f6ec7ed0509ed5c2dbe34084cd5531b05303cafa433af",
+    "violation_annotations": ["X", "V", "QV"]
+  },
+  "split": {
+    "test_size": 0.20,
+    "val_size": 0.15,
+    "cv_folds": 5
+  },
+  "quantum": {
+    "train_size_per_class": 150,
+    "max_qubits": 6
+  },
+  "search_budget": {
+    "classical_trials": 25,
+    "kta_candidates": 60,
+    "kta_top_k": 6,
+    "qsvm_trials": 30,
+    "hybrid_trials": 40,
+    "vqc_trials": 8,
+    "vqc_maxiter": 60,
+    "cv_folds_quantum": 3
+  }
+}

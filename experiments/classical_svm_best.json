@@ -1,0 +1,12 @@
+{
+  "name": "classical_svm",
+  "n_trials": 25,
+  "best_value_cv_auc": 0.8002589627461738,
+  "best_params": {
+    "C": 0.16028941557498055,
+    "gamma": 0.0004840440052121734
+  },
+  "search_seconds": 406.823877895,
+  "pos_weight": 32.32692307692308,
+  "default_cv_auc": 0.7436268993101366
+}

@@ -1,0 +1,39 @@
+{
+  "name": "optuna_hybrid_no_kta",
+  "n_trials": 40,
+  "best_value_cv_auc": 0.8076333333333333,
+  "best_params": {
+    "arch_id": 0,
+    "bandwidth": 0.1668432570843071,
+    "C": 1.0406961769276846,
+    "alpha": 0.31110721767298927,
+    "gamma": 1.1269515759412152
+  },
+  "search_seconds": 125.99301988399998,
+  "best_config": {
+    "model": "hybrid",
+    "view": "onehot",
+    "reduction": "pca",
+    "n_qubits": 4,
+    "k_select": null,
+    "feature_map": "ZZ",
+    "reps": 2,
+    "entanglement": "linear",
+    "bandwidth": 0.1668432570843071,
+    "C": 1.0406961769276846,
+    "alpha": 0.31110721767298927,
+    "gamma": 1.1269515759412152
+  },
+  "basic_cv_auc": 0.7835666666666667,
+  "architectures": [
+    {
+      "view": "onehot",
+      "reduction": "pca",
+      "n_qubits": 4,
+      "k_select": null,
+      "feature_map": "ZZ",
+      "reps": 2,
+      "entanglement": "linear"
+    }
+  ]
+}

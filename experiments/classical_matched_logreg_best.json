@@ -1,0 +1,14 @@
+{
+  "name": "classical_matched_logreg",
+  "n_trials": 20,
+  "best_value_cv_auc": 0.8171333333333334,
+  "best_params": {
+    "C": 0.0745934328572655
+  },
+  "arch": {
+    "view": "target",
+    "reduction": "kbest",
+    "n_qubits": 6,
+    "k_select": null
+  }
+}

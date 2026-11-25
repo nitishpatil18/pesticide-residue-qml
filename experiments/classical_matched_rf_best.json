@@ -1,0 +1,16 @@
+{
+  "name": "classical_matched_rf",
+  "n_trials": 20,
+  "best_value_cv_auc": 0.8239666666666666,
+  "best_params": {
+    "n_estimators": 300,
+    "max_depth": 3,
+    "min_samples_leaf": 20
+  },
+  "arch": {
+    "view": "target",
+    "reduction": "kbest",
+    "n_qubits": 6,
+    "k_select": null
+  }
+}

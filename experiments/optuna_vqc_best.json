@@ -1,0 +1,32 @@
+{
+  "name": "optuna_vqc",
+  "n_trials": 8,
+  "best_value_cv_auc": 0.7006666666666667,
+  "best_params": {
+    "feat_id": 4,
+    "optimizer": "COBYLA",
+    "feature_map": "ZZ",
+    "fm_reps": 2,
+    "ansatz": "EfficientSU2",
+    "ansatz_reps": 1,
+    "ansatz_entanglement": "linear"
+  },
+  "search_seconds": 336.8116020519999,
+  "best_config": {
+    "model": "vqc",
+    "view": "target",
+    "reduction": "kbest_pca",
+    "n_qubits": 5,
+    "k_select": 10,
+    "feature_map": "ZZ",
+    "fm_reps": 2,
+    "fm_entanglement": "linear",
+    "ansatz": "EfficientSU2",
+    "ansatz_reps": 1,
+    "ansatz_entanglement": "linear",
+    "optimizer": "COBYLA",
+    "maxiter": 60
+  },
+  "basic_cv_auc": 0.6678000000000001,
+  "maxiter": 60
+}

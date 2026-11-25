@@ -1,0 +1,99 @@
+{
+  "name": "optuna_hybrid",
+  "n_trials": 40,
+  "best_value_cv_auc": 0.8141000000000002,
+  "best_params": {
+    "arch_id": 2,
+    "bandwidth": 2.5361658089278345,
+    "C": 0.0843349299653915,
+    "alpha": 0.28466662891786404,
+    "gamma": 0.09142806546520418
+  },
+  "search_seconds": 77.81182325700001,
+  "best_config": {
+    "model": "hybrid",
+    "view": "target",
+    "reduction": "kbest",
+    "n_qubits": 6,
+    "k_select": null,
+    "feature_map": "Z",
+    "reps": 1,
+    "entanglement": "linear",
+    "bandwidth": 2.5361658089278345,
+    "C": 0.0843349299653915,
+    "alpha": 0.28466662891786404,
+    "gamma": 0.09142806546520418
+  },
+  "basic_cv_auc": 0.7835666666666667,
+  "architectures": [
+    {
+      "view": "onehot",
+      "reduction": "pca",
+      "n_qubits": 4,
+      "k_select": null,
+      "feature_map": "ZZ",
+      "reps": 2,
+      "entanglement": "linear"
+    },
+    {
+      "view": "onehot",
+      "reduction": "kbest",
+      "n_qubits": 3,
+      "k_select": null,
+      "feature_map": "Z",
+      "reps": 3,
+      "entanglement": "linear",
+      "bandwidth": 0.4354222159461648
+    },
+    {
+      "view": "target",
+      "reduction": "kbest",
+      "n_qubits": 6,
+      "k_select": null,
+      "feature_map": "Z",
+      "reps": 1,
+      "entanglement": "linear",
+      "bandwidth": 0.32543936377371924
+    },
+    {
+      "view": "target",
+      "reduction": "kbest_pca",
+      "n_qubits": 3,
+      "k_select": 8,
+      "feature_map": "Z",
+      "reps": 1,
+      "entanglement": "linear",
+      "bandwidth": 0.25427418935475554
+    },
+    {
+      "view": "target",
+      "reduction": "kbest",
+      "n_qubits": 6,
+      "k_select": null,
+      "feature_map": "Z",
+      "reps": 2,
+      "entanglement": "linear",
+      "bandwidth": 0.5033732198193115
+    },
+    {
+      "view": "onehot",
+      "reduction": "kbest",
+      "n_qubits": 3,
+      "k_select": null,
+      "feature_map": "Pauli_ZXX",
+      "reps": 1,
+      "entanglement": "full",
+      "bandwidth": 1.3889997404339132
+    },
+    {
+      "view": "target",
+      "reduction": "kbest_pca",
+      "n_qubits": 5,
+      "k_select": 10,
+      "feature_map": "Z",
+      "reps": 1,
+      "entanglement": "linear",
+      "bandwidth": 0.33806309272137225
+    }
+  ]
+}

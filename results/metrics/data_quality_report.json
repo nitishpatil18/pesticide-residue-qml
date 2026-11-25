@@ -1,0 +1,57 @@
+{
+  "n_samples": 10665,
+  "n_result_rows": 2890842,
+  "n_sample_columns": 18,
+  "duplicate_sample_pk": 0,
+  "duplicate_rows_excluding_pk": 0,
+  "samples_without_results": 0,
+  "orphan_result_rows": 0,
+  "blank_rate_per_column": {
+    "SAMPLE_PK": 0.0,
+    "STATE": 0.0,
+    "YEAR": 0.0,
+    "MONTH": 0.0,
+    "DAY": 0.0,
+    "SITE": 0.0,
+    "COMMOD": 0.0,
+    "SOURCE_ID": 0.7083919362400375,
+    "VARIETY": 0.0,
+    "ORIGIN": 0.0,
+    "COUNTRY": 0.7326769807782466,
+    "DISTTYPE": 0.0,
+    "COMMTYPE": 0.0,
+    "CLAIM": 0.0,
+    "QUANTITY": 0.4047819971870605,
+    "GROWST": 0.8449132676980778,
+    "PACKST": 0.869198312236287,
+    "DISTST": 0.3660571964369433
+  },
+  "class_counts": {
+    "0": 10345,
+    "1": 320
+  },
+  "positive_rate": 0.030004688232536336,
+  "unique_commodities": 23,
+  "result_unit_values": {
+    "M": 2890842
+  },
+  "annotation_counts": {
+    "none": 2888687,
+    "Q": 1776,
+    "V": 236,
+    "X": 79,
+    "QV": 64
+  },
+  "dataset_sha256": "9e599c741c6122d1ea7f6ec7ed0509ed5c2dbe34084cd5531b05303cafa433af",
+  "sha256_matches_config": true,
+  "label_verification": {
+    "samples": 10665,
+    "violations_official_annotation": 320,
+    "violations_recomputed_from_concentration": 337,
+    "both": 320,
+    "only_official": 0,
+    "only_recomputed": 17,
+    "agreement_rate": 0.9984060009376465,
+    "note": "Official PDP annotations are the training label. The recomputation compares detected concentration with the EPA tolerance and is reported only as a consistency check; differences come from analytical rules such as measurement-uncertainty handling and below-quantification annotations."
+  }
+}
